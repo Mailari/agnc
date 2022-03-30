@@ -6,6 +6,10 @@ import { ServicesModule } from './pages/services.page';
 
 const routes: Routes = [
   {
+    path: '',
+    component: AboutComponent
+  },
+  {
     path: 'about',
     component: AboutComponent
   },

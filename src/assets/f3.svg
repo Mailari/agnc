@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbd4c9"/>
+      <stop offset="1" stop-color="#6a7be2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_179" data-name="Group 179" transform="translate(-935 -3104)">
+    <g id="Oval" transform="translate(1490 8593)">
+      <circle id="Oval-2" data-name="Oval" cx="40" cy="40" r="40" transform="translate(-555 -5489)" fill="#f87853"/>
+      <circle id="Oval-3" data-name="Oval" cx="40" cy="40" r="40" transform="translate(-555 -5489)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Combined_Shape" data-name="Combined Shape" d="M7.5,39A7.5,7.5,0,0,1,0,31.5V13.215A5.215,5.215,0,0,1,5.215,8H8V5.5A5.506,5.506,0,0,1,13.5,0h20A5.506,5.506,0,0,1,39,5.5v20A5.506,5.506,0,0,1,33.5,31H31v2.786A5.214,5.214,0,0,1,25.786,39ZM3,13.215V31.5A4.5,4.5,0,0,0,7.5,36H25.786A2.214,2.214,0,0,0,28,33.786V31H13.5A5.506,5.506,0,0,1,8,25.5V11H5.215A2.215,2.215,0,0,0,3,13.215ZM11,5.5v20A2.5,2.5,0,0,0,13.5,28h20A2.5,2.5,0,0,0,36,25.5V5.5A2.5,2.5,0,0,0,33.5,3h-20A2.5,2.5,0,0,0,11,5.5ZM18.5,21a1.5,1.5,0,1,1,0-3h10a1.5,1.5,0,0,1,0,3Zm0-8a1.5,1.5,0,1,1,0-3h10a1.5,1.5,0,0,1,0,3Z" transform="translate(955 3124)" fill="#fff"/>
+  </g>
+</svg>

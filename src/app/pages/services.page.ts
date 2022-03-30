@@ -14,7 +14,7 @@ import { CardModule } from '../utils/card.module';
           does one good.
         </p>
       </div>
-      <div class="flex md:flex-row flex-col">
+      <div class="flex md:flex-row flex-col justify-between">
         <app-card *ngFor="let item of items" [card]="item"></app-card>
       </div>
       <div class="relative">
@@ -30,12 +30,19 @@ import { CardModule } from '../utils/card.module';
               <img class="h-[3vh]" src="assets/r4.svg" alt="" />
               <p class="p-[1.5vh]">{{ item }}</p>
             </div>
-            <button class="my-5"><span class="text-[#FB7846]  px-8 p-2 border-2 border-[#F87853] hover:border-green-200 text-xs rounded-md">Explore</span></button>
+            <button class="my-5"><span class="text-[#FB7846]   px-8 p-2 border-2 border-[#F87853] hover:border-green-200 text-xs rounded-md">Explore</span></button>
           </div>
         </div>
         <img class="md:ml-[-48vh] ml-[-10vh]" src="assets/o1.svg" alt="" />
       </div>
-      <div class="md:hidden h-[80vh]" ></div>
+      <div class="md:hidden h-[80vh]"></div>
+      <div class="relative bg-gradient-to-bl from-pink-200 via-purple-100 to-indigo-200 mx-[-20%] px-[17%] pt-[15%] my-[10%] py-[10%]">
+        <p class="font-light text-5xl mb-[10vh] ">Features</p>
+        <div class="flex flex-col md:flex-row flex-wrap justify-between md:mr-20">
+          <app-card *ngFor="let feature of features" [card]="feature" [h]="true"></app-card>
+        </div>
+        <img class="absolute top-0 right-0 mt-[-20%] mr-[-20%]" src="assets/c1.svg" alt="" />
+      </div>
     </div>
   `
 })
@@ -45,6 +52,15 @@ export class ServicesComponent {
     { image: 'assets/r2.svg', title: 'Design', description: 'Formed a great hindrance to my speed, contrary to my first' },
     { image: 'assets/r3.svg', title: 'Development', description: 'Great hindrance to my speed resolved, contrary to my first intention' }
   ];
+  features = [
+    { image: 'assets/f1.svg', title: 'Email Marketing', description: 'Minuteness of the parts formed a great hindrance to my speed' },
+    { image: 'assets/f2.svg', title: 'User analytics ', description: 'Great hindrance to my speed resolved, contrary to my first intention' },
+    { image: 'assets/f3.svg', title: 'Security', description: 'Minuteness of the parts formed a great hindrance to my speedt' },
+    { image: 'assets/f4.svg', title: 'Integrations', description: 'Great hindrance to my speed resolved, contrary to my first intention' },
+    { image: 'assets/f5.svg', title: 'Community', description: 'Great hindrance to my speed resolved, contrary to my first intention' },
+    { image: 'assets/f6.svg', title: 'Support', description: 'Great hindrance to my speed resolved, contrary to my first intention' }
+  ];
+
   comments = ['Truly it was a great journey', "I'm sure it was a great journey", 'I was so happy to be there'];
 }
 

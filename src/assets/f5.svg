@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbd4c9"/>
+      <stop offset="1" stop-color="#6a7be2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_181" data-name="Group 181" transform="translate(-535 -3408)">
+    <g id="Oval" transform="translate(1490 8593)">
+      <circle id="Oval-2" data-name="Oval" cx="40" cy="40" r="40" transform="translate(-955 -5185)" fill="#f87853"/>
+      <circle id="Oval-3" data-name="Oval" cx="40" cy="40" r="40" transform="translate(-955 -5185)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Shape" d="M31.545,38.825,20.5,33.039,9.455,38.825a1.5,1.5,0,0,1-2.174-1.574L9.39,25,.455,16.317a1.492,1.492,0,0,1,.83-2.547l12.35-1.787L19.156.833a1.5,1.5,0,0,1,2.687,0l5.522,11.15L39.715,13.77a1.492,1.492,0,0,1,.831,2.547L31.61,25l2.11,12.255a1.495,1.495,0,0,1-2.174,1.574Z" transform="translate(555 3428)" fill="#fff"/>
+  </g>
+</svg>
